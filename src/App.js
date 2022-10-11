@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Posts from "./components/posts/Posts";
 import StorySection from "./components/StorySection";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <StorySection />
+      <Posts />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Stories = ({ username, image }) => {
   return (
-    <div>
+    <Div>
       <Img
         style={{
           backgroundImage: `url(${require(`../img/${image}`)})`,
@@ -12,11 +12,13 @@ const Stories = ({ username, image }) => {
       <UName>
         {username.length > 8 ? username.slice(0, 7) + "..." : username}
       </UName>
-    </div>
+    </Div>
   );
 };
 
 export default Stories;
+
+const Div = styled.div``;
 
 const Img = styled.img`
   width: 40px;
@@ -35,4 +37,5 @@ const UName = styled.div`
   text-align: center;
   margin-left: -2px;
   font-size: 12px;
+  font-weight: 500;
 `;

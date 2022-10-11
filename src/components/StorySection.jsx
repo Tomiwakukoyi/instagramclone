@@ -32,10 +32,10 @@ const StorySection = () => {
       <Stories username={usernameArr[4]} image="man.png" />
       <Stories username={usernameArr[5]} image="tk.jpg" />
       <Stories username={usernameArr[6]} image="tomiwa.jpg" />
-      <Stories username={usernameArr[7]} image="tk.jpg" />
-      <Stories username={usernameArr[8]} image="tk.jpg" />
+      <Stories username={usernameArr[7]} image="eliaMn83.jpg" />
+      <Stories username={usernameArr[8]} image="3rd.jpeg" />
       <Stories username={usernameArr[9]} image="tk.jpg" />
-      <Stories username={usernameArr[10]} image="tk.jpg" />
+      <Stories username={usernameArr[10]} image="2nd.jpg" />
       <Stories username={usernameArr[11]} image="tk.jpg" />
     </Div>
   );
@@ -45,13 +45,19 @@ export default StorySection;
 const Div = styled.div`
   display: flex;
   width: 300px;
+  border-bottom: 0.5px solid silver;
+  padding-bottom: 10px;
   overflow-x: scroll;
+  scroll-behavior: smooth;
   ::-webkit-scrollbar {
     display: none;
   }
 `;
 
-const MyProf = styled.div``;
+const MyProf = styled.div`
+  margin-right: 6px;
+  margin-left: 3px;
+`;
 
 const Img = styled.img`
   background-image: url(${dp1});
@@ -66,8 +72,10 @@ const Img = styled.img`
   margin-left: 5px;
 `;
 const UName = styled.div`
-  size: 10px;
-  margin-left: 1px;
+  width: 55px;
   cursor: pointer;
-  font-size: 10px;
+  text-align: center;
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 500;
 `;
