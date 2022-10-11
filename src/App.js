@@ -11,7 +11,7 @@ function App() {
       <Header />
       <StorySection />
       <Posts />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
