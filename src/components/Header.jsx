@@ -27,7 +27,7 @@ export default Header;
 
 const Container = styled.div`
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 10px;
   justify-content: space-between;
   margin-right: 10px;
