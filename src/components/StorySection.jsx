@@ -32,10 +32,17 @@ const StorySection = () => {
       <Stories username={usernameArr[4]} image="man.png" />
       <Stories username={usernameArr[5]} image="tk.jpg" />
       <Stories username={usernameArr[6]} image="tomiwa.jpg" />
+      <Stories username={usernameArr[6]} image="tomiwa.jpg" />
+      <Stories username={usernameArr[6]} image="tomiwa.jpg" />
+      <Stories username={usernameArr[6]} image="tomiwa.jpg" />
+      <Stories username={usernameArr[7]} image="eliaMn83.jpg" />
+      <Stories username={usernameArr[7]} image="eliaMn83.jpg" />
+      <Stories username={usernameArr[7]} image="eliaMn83.jpg" />
       <Stories username={usernameArr[7]} image="eliaMn83.jpg" />
       <Stories username={usernameArr[8]} image="3rd.jpeg" />
       <Stories username={usernameArr[9]} image="tk.jpg" />
       <Stories username={usernameArr[10]} image="2nd.jpg" />
+      <Stories username={usernameArr[11]} image="tk.jpg" />
       <Stories username={usernameArr[11]} image="tk.jpg" />
     </Div>
   );
@@ -44,7 +51,7 @@ const StorySection = () => {
 export default StorySection;
 const Div = styled.div`
   display: flex;
-  width: 300px;
+  width: 100vw;
   border-bottom: 0.5px solid silver;
   padding-bottom: 10px;
   overflow-x: scroll;
