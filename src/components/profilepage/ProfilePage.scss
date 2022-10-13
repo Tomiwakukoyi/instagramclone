@@ -1,0 +1,90 @@
+//Header section
+
+.heading {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+//Profile Section
+.profileWrap {
+  .profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profilePic {
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      margin-left: 8px;
+    }
+    .rightProfile {
+      display: flex;
+
+      .count {
+        margin-right: 12px;
+        line-height: 5px;
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .bio {
+    margin-left: 8px;
+    h1 {
+      font-size: medium;
+    }
+    p {
+      font-weight: 400;
+      margin-top: -11px;
+    }
+    a {
+      position: absolute;
+      text-decoration: none;
+      color: lightblue;
+      margin-top: -12px;
+    }
+  }
+
+  .buttons {
+    align-items: center;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin: 0 3px 0 3px;
+      border-radius: 5px;
+      border: none;
+      height: 32px;
+      width: 200px;
+      cursor: pointer;
+    }
+
+    .clicked {
+      width: 150px;
+    }
+  }
+  .contact {
+    line-height: 0.5;
+    height: 65px;
+
+    a {
+      text-decoration: none;
+
+      p {
+        color: black;
+      }
+    }
+  }
+}

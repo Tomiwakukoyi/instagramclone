@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import "./Post.css";
 import {
   UilEllipsisH,
   UilHeart,
@@ -11,6 +12,12 @@ import {
 const PostsHeader = ({ image, username, postimage, caption, user }) => {
   ///number of likes
   let likes = Math.trunc(Math.random() * 200);
+
+  const [liked, setLiked] = useState(false);
+
+  const handleLiked = () => {
+    setLiked(!liked);
+  };
 
   return (
     <Container>
@@ -34,7 +41,12 @@ const PostsHeader = ({ image, username, postimage, caption, user }) => {
       />
       <Icons>
         <LeftIcons>
-          <UilHeart size={22} style={{ marginRight: 10, cursor: "pointer" }} />
+          <UilHeart
+            className={liked ? "liked" : null}
+            size={22}
+            style={{ marginRight: 10, cursor: "pointer" }}
+            onClick={handleLiked}
+          />
           <UilComment
             size={22}
             style={{ marginRight: 10, cursor: "pointer" }}

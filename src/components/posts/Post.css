@@ -1,0 +1,8 @@
+.likeBtn {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.liked {
+  fill: red;
+}
