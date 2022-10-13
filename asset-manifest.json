@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/instagramclone/static/css/main.c76f21d1.css",
+    "main.js": "/instagramclone/static/js/main.3162a422.js",
+    "static/media/2nd.jpg": "/instagramclone/static/media/2nd.6f1248c8f503b6abdbf4.jpg",
+    "static/media/man.png": "/instagramclone/static/media/man.0c7280885ccd709fad28.png",
+    "static/media/tomiwa.jpg": "/instagramclone/static/media/tomiwa.d1846e874482883089e6.jpg",
+    "static/media/3rd.jpeg": "/instagramclone/static/media/3rd.e520c3161c9437a6d95a.jpeg",
+    "static/media/pic1.jpg": "/instagramclone/static/media/pic1.1d8b5280127565ceb784.jpg",
+    "static/media/pic2.jpg": "/instagramclone/static/media/pic2.10b634df8c3a931ed2e5.jpg",
+    "static/media/tk.jpg": "/instagramclone/static/media/tk.8ace905d2b05216f9dbb.jpg",
+    "static/media/pic5.avif": "/instagramclone/static/media/pic5.8a0e7fbcda37a246764b.avif",
+    "static/media/pic4.avif": "/instagramclone/static/media/pic4.43a570b782fc84793758.avif",
+    "static/media/pic6.avif": "/instagramclone/static/media/pic6.6d5468eca4beef37c215.avif",
+    "static/media/eliaMn83.jpg": "/instagramclone/static/media/eliaMn83.99f28cfdb566bea1a7d0.jpg",
+    "static/media/back.jpg": "/instagramclone/static/media/back.7503b8644f1b3f0bd1d1.jpg",
+    "static/media/pic3.avif": "/instagramclone/static/media/pic3.189b150cb1ad2ae99853.avif",
+    "index.html": "/instagramclone/index.html",
+    "main.c76f21d1.css.map": "/instagramclone/static/css/main.c76f21d1.css.map",
+    "main.3162a422.js.map": "/instagramclone/static/js/main.3162a422.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c76f21d1.css",
+    "static/js/main.3162a422.js"
+  ]
+}
